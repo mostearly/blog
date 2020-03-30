@@ -1,4 +1,77 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[piecego blog rss feed]]></title><description><![CDATA[piecego blog rss feed]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 25 Mar 2020 13:44:46 GMT</lastBuildDate><item><title><![CDATA[关于]]></title><description><![CDATA[一个Web前端从业人员，喜欢鼓捣一些有趣的东西 这个博客主要记录一些学习上面的心得，教程以及练习写文等（现在基本都是水货）。。。 看别人博客都有联系方式....估计没人联系我，忽略掉]]></description><link>https://piecego.com/about</link><guid isPermaLink="false">https://piecego.com/about</guid><pubDate>Wed, 25 Mar 2020 12:51:37 GMT</pubDate><content:encoded>&lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[piecego blog rss feed]]></title><description><![CDATA[piecego blog rss feed]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 30 Mar 2020 14:52:44 GMT</lastBuildDate><item><title><![CDATA[NodeJS readline笔记终端输出部分]]></title><description><![CDATA[…]]></description><link>https://piecego.com/post/nodejsreadline-biji-zhongduan-shuchu-bufen</link><guid isPermaLink="false">https://piecego.com/post/nodejsreadline-biji-zhongduan-shuchu-bufen</guid><pubDate>Mon, 30 Mar 2020 10:40:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 925px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/2526ff12f157f774428eef9a08fc6ec2/8ec0a/wallhaven-dgzj9o.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.27705627705628%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDBAX/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhADEAAAAeS+ZloSGf/EABgQAAIDAAAAAAAAAAAAAAAAABARABIh/9oACAEBAAEFAntYgx//xAAXEQADAQAAAAAAAAAAAAAAAAABEBJB/9oACAEDAQE/AaGr/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQAGPwJf/8QAGRAAAwEBAQAAAAAAAAAAAAAAAAERMRBx/9oACAEBAAE/IUnkjRrd5U0rP//aAAwDAQACAAMAAAAQ5/8A/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQARUf/aAAgBAwEBPxAwwSnL/8QAFhEAAwAAAAAAAAAAAAAAAAAAARAR/9oACAECAQE/EIV//8QAGxAAAwADAQEAAAAAAAAAAAAAAAERITFhUZH/2gAIAQEAAT8QgeFnGxJUPeqWBTCVRdOj+n//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/2526ff12f157f774428eef9a08fc6ec2/a42d1/wallhaven-dgzj9o.webp 231w,
+/static/2526ff12f157f774428eef9a08fc6ec2/a7d21/wallhaven-dgzj9o.webp 463w,
+/static/2526ff12f157f774428eef9a08fc6ec2/31b98/wallhaven-dgzj9o.webp 925w,
+/static/2526ff12f157f774428eef9a08fc6ec2/5c6e0/wallhaven-dgzj9o.webp 1388w,
+/static/2526ff12f157f774428eef9a08fc6ec2/62ac3/wallhaven-dgzj9o.webp 1850w,
+/static/2526ff12f157f774428eef9a08fc6ec2/5a003/wallhaven-dgzj9o.webp 2560w&quot;
+          sizes=&quot;(max-width: 925px) 100vw, 925px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/2526ff12f157f774428eef9a08fc6ec2/d4da3/wallhaven-dgzj9o.jpg 231w,
+/static/2526ff12f157f774428eef9a08fc6ec2/ecde2/wallhaven-dgzj9o.jpg 463w,
+/static/2526ff12f157f774428eef9a08fc6ec2/0ff56/wallhaven-dgzj9o.jpg 925w,
+/static/2526ff12f157f774428eef9a08fc6ec2/8d810/wallhaven-dgzj9o.jpg 1388w,
+/static/2526ff12f157f774428eef9a08fc6ec2/aa991/wallhaven-dgzj9o.jpg 1850w,
+/static/2526ff12f157f774428eef9a08fc6ec2/8ec0a/wallhaven-dgzj9o.jpg 2560w&quot;
+          sizes=&quot;(max-width: 925px) 100vw, 925px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/2526ff12f157f774428eef9a08fc6ec2/0ff56/wallhaven-dgzj9o.jpg&quot;
+          alt=&quot;wallhaven-dgzj9o.jpg&quot;
+          title=&quot;wallhaven-dgzj9o.jpg&quot;
+          loading=&quot;lazy&quot;
+          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        /&gt;
+      &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;wallhaven-dgzj9o.jpg&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;h2&gt;绘制（覆盖）机制&lt;/h2&gt;
+&lt;p&gt;当程序结束时终端输出目录：如果光标的&lt;code class=&quot;language-text&quot;&gt;dx&lt;/code&gt;是&lt;code class=&quot;language-text&quot;&gt;0&lt;/code&gt;，将重绘光标&lt;code class=&quot;language-text&quot;&gt;dy&lt;/code&gt;所在行，&lt;code class=&quot;language-text&quot;&gt;dx&lt;/code&gt;大于&lt;code class=&quot;language-text&quot;&gt;0&lt;/code&gt;将重绘&lt;code class=&quot;language-text&quot;&gt;dy&lt;/code&gt;的下一行&lt;/p&gt;
+&lt;p&gt;程序内使用&lt;code class=&quot;language-text&quot;&gt;console&lt;/code&gt;、&lt;code class=&quot;language-text&quot;&gt;process.stdout.write&lt;/code&gt;时：根据光标所在位置进行重绘&lt;/p&gt;
+&lt;p&gt;中文字符占用两位，英文字符占用一位，可以使用&lt;code class=&quot;language-text&quot;&gt;string-width&lt;/code&gt;库计算&lt;/p&gt;
+&lt;p&gt;不能删除现有的行，只能重绘或者清空&lt;/p&gt;
+&lt;h2&gt;&lt;code class=&quot;language-text&quot;&gt;moveCursor&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;说明：这是基于相对位置移动光标，相对于运行程序时所在行&lt;/p&gt;
+&lt;p&gt;参数：&lt;code class=&quot;language-text&quot;&gt;dx&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;dy&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;dx&lt;/code&gt; 【必填】横轴，从左向右&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;dy&lt;/code&gt; 【必填】竖轴，从下向上&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;code class=&quot;language-text&quot;&gt;cursorTo&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;参数：&lt;code class=&quot;language-text&quot;&gt;dx&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;dy&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;dx&lt;/code&gt; 【必填】 同&lt;code class=&quot;language-text&quot;&gt;moveCursor&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;dy&lt;/code&gt; 【可选】竖轴 基于终端的行&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;code class=&quot;language-text&quot;&gt;clearLine&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;清除光标所在行所有内容&lt;/p&gt;
+&lt;p&gt;参数: &lt;code class=&quot;language-text&quot;&gt;dir&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;dir【必填】&lt;code class=&quot;language-text&quot;&gt;0&lt;/code&gt;清除整行，&lt;code class=&quot;language-text&quot;&gt;-1&lt;/code&gt;清除光标向左的内容，&lt;code class=&quot;language-text&quot;&gt;1&lt;/code&gt;清除光标向右的位置&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[友情链接]]></title><description><![CDATA[此处很空旷]]></description><link>https://piecego.comlinks</link><guid isPermaLink="false">https://piecego.comlinks</guid><pubDate>Wed, 25 Mar 2020 13:44:08 GMT</pubDate><content:encoded>&lt;p&gt;此处很空旷&lt;/p&gt;</content:encoded></item><item><title><![CDATA[关于]]></title><description><![CDATA[一个Web前端从业人员，喜欢鼓捣一些有趣的东西 这个博客主要记录一些学习上面的心得，教程以及练习写文等（现在基本都是水货）。。。 看别人博客都有联系方式....估计没人联系我，忽略掉]]></description><link>https://piecego.com/about</link><guid isPermaLink="false">https://piecego.com/about</guid><pubDate>Wed, 25 Mar 2020 12:51:40 GMT</pubDate><content:encoded>&lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
     &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 925px;&quot;
@@ -51,7 +124,57 @@
 &lt;p&gt;一个Web前端从业人员，喜欢鼓捣一些有趣的东西&lt;/p&gt;
 &lt;p&gt;这个博客主要记录一些学习上面的心得，教程以及练习写文等（现在基本都是水货）。。。&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;看别人博客都有联系方式....估计没人联系我，忽略掉&lt;/p&gt;</content:encoded></item><item><title><![CDATA[友情链接]]></title><description><![CDATA[此处很空旷]]></description><link>https://piecego.comlinks</link><guid isPermaLink="false">https://piecego.comlinks</guid><pubDate>Mon, 23 Mar 2020 09:15:29 GMT</pubDate><content:encoded>&lt;p&gt;此处很空旷&lt;/p&gt;</content:encoded></item><item><title><![CDATA[React使用函数式组件时出现的问题]]></title><description><![CDATA[React使用函数式组件时出现的问题 两次渲染问题 前天在写React某个Demo代码时发现React组件渲染了两次，开始以为是state原因，因为函数式组件不使用钩子只渲染了一次，但是我思考不明白为什么React…]]></description><link>https://piecego.com/post/react-shiyong-hanshu-shi-zujian-shi-chuxian-de-wenti</link><guid isPermaLink="false">https://piecego.com/post/react-shiyong-hanshu-shi-zujian-shi-chuxian-de-wenti</guid><pubDate>Sat, 21 Mar 2020 08:56:18 GMT</pubDate><content:encoded>&lt;h1&gt;React使用函数式组件时出现的问题&lt;/h1&gt;
+&lt;p&gt;看别人博客都有联系方式....估计没人联系我，忽略掉&lt;/p&gt;</content:encoded></item><item><title><![CDATA[React使用函数式组件时出现的问题]]></title><description><![CDATA[React使用函数式组件时出现的问题 两次渲染问题 前天在写React某个Demo代码时发现React组件渲染了两次，开始以为是state原因，因为函数式组件不使用钩子只渲染了一次，但是我思考不明白为什么React…]]></description><link>https://piecego.com/post/react-shiyong-hanshu-shi-zujian-shi-chuxian-de-wenti</link><guid isPermaLink="false">https://piecego.com/post/react-shiyong-hanshu-shi-zujian-shi-chuxian-de-wenti</guid><pubDate>Sat, 21 Mar 2020 08:56:18 GMT</pubDate><content:encoded>&lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 925px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/5eedcf5f265479f56e2371ffe4422fc8/e6b01/wallhaven-zmjd7o.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.27705627705628%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQBAgX/xAAWAQEBAQAAAAAAAAAAAAAAAAAEAQL/2gAMAwEAAhADEAAAAc5lCzDSBq//xAAZEAEBAQADAAAAAAAAAAAAAAABAAIDERL/2gAIAQEAAQUCyXIYyeZ03ULf/8QAGBEAAgMAAAAAAAAAAAAAAAAAAAECIUH/2gAIAQMBAT8BcdZZ/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFRABAQAAAAAAAAAAAAAAAAAAIDH/2gAIAQEABj8Ci//EABkQAQADAQEAAAAAAAAAAAAAAAEAETEhQf/aAAgBAQABPyFx7YgFEV8IpeEubAVkpbP/2gAMAwEAAgADAAAAEA8f/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAh/9oACAEDAQE/EFUSU5f/xAAWEQEBAQAAAAAAAAAAAAAAAAABEQD/2gAIAQIBAT8QGsMRLv/EABsQAQACAwEBAAAAAAAAAAAAAAEAESExYUGR/9oACAEBAAE/ECNfBg0oLTS+RwpXIFBtvBG5D5CVKBoMT//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/5eedcf5f265479f56e2371ffe4422fc8/a42d1/wallhaven-zmjd7o.webp 231w,
+/static/5eedcf5f265479f56e2371ffe4422fc8/a7d21/wallhaven-zmjd7o.webp 463w,
+/static/5eedcf5f265479f56e2371ffe4422fc8/31b98/wallhaven-zmjd7o.webp 925w,
+/static/5eedcf5f265479f56e2371ffe4422fc8/5c6e0/wallhaven-zmjd7o.webp 1388w,
+/static/5eedcf5f265479f56e2371ffe4422fc8/62ac3/wallhaven-zmjd7o.webp 1850w,
+/static/5eedcf5f265479f56e2371ffe4422fc8/93e07/wallhaven-zmjd7o.webp 3840w&quot;
+          sizes=&quot;(max-width: 925px) 100vw, 925px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/5eedcf5f265479f56e2371ffe4422fc8/d4da3/wallhaven-zmjd7o.jpg 231w,
+/static/5eedcf5f265479f56e2371ffe4422fc8/ecde2/wallhaven-zmjd7o.jpg 463w,
+/static/5eedcf5f265479f56e2371ffe4422fc8/0ff56/wallhaven-zmjd7o.jpg 925w,
+/static/5eedcf5f265479f56e2371ffe4422fc8/8d810/wallhaven-zmjd7o.jpg 1388w,
+/static/5eedcf5f265479f56e2371ffe4422fc8/aa991/wallhaven-zmjd7o.jpg 1850w,
+/static/5eedcf5f265479f56e2371ffe4422fc8/e6b01/wallhaven-zmjd7o.jpg 3840w&quot;
+          sizes=&quot;(max-width: 925px) 100vw, 925px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/5eedcf5f265479f56e2371ffe4422fc8/0ff56/wallhaven-zmjd7o.jpg&quot;
+          alt=&quot;wallhaven-zmjd7o.jpg&quot;
+          title=&quot;wallhaven-zmjd7o.jpg&quot;
+          loading=&quot;lazy&quot;
+          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        /&gt;
+      &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;wallhaven-zmjd7o.jpg&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;h1&gt;React使用函数式组件时出现的问题&lt;/h1&gt;
 &lt;h2&gt;两次渲染问题&lt;/h2&gt;
 &lt;p&gt;前天在写React某个Demo代码时发现React组件渲染了两次，开始以为是state原因，因为函数式组件不使用&lt;code class=&quot;language-text&quot;&gt;useState&lt;/code&gt;钩子只渲染了一次，但是我思考不明白为什么React类组件和使用了&lt;code class=&quot;language-text&quot;&gt;useState&lt;/code&gt;钩子，开始猜测为因为&lt;code class=&quot;language-text&quot;&gt;state&lt;/code&gt;原因，&lt;/p&gt;
 &lt;p&gt;而后在StackOverflow上面提问后经热心网友的告知才知道答案，是因为我使用了React严格模式，即使用&lt;code class=&quot;language-text&quot;&gt;React.StrictMode&lt;/code&gt;组件&lt;/p&gt;
@@ -1101,7 +1224,7 @@ findstr&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
     &lt;/span&gt;
     &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;wallhaven-5wk153&lt;/figcaption&gt;
   &lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;&lt;audio controls preload=&quot;metadata&quot; src=&quot;http://localhost:8080/川井宪次 (かわい けんじ) - 孤独な巡礼 (孤独的巡礼).mp3&quot;&gt;&lt;/audio&gt;&lt;/p&gt;
+&lt;p&gt;&lt;audio controls preload=&quot;metadata&quot; src=&quot;/audio/川井宪次 (かわい けんじ) - 孤独な巡礼 (孤独的巡礼).mp3&quot;&gt;&lt;/audio&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;时境变迁，思绪万千&lt;/p&gt;
 &lt;/blockquote&gt;

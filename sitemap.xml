@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://piecego.com/tags/node-js</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://piecego.com/tags/react</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://piecego.com/tags/wsl</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://piecego.com/tags/node-js</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://piecego.com/tags/linux</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://piecego.com/tags/windows</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://piecego.com/tags/终端</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://piecego.com/tags/java-script</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://piecego.com/tags/graph-ql</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://piecego.com/tags/php</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://piecego.com/categories/笔记</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://piecego.com/categories/默认</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://piecego.com/categories/记录</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://piecego.com/categories/笔记</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://piecego.com/categories/教程</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://piecego.com/query/stream-item=0</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://piecego.com/query/stream-item=1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://piecego.com/query/stream-item=2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://piecego.com/about</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://piecego.com/links</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://piecego.com/post/nodejsreadline-biji-zhongduan-shuchu-bufen</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://piecego.com/post/react-shiyong-hanshu-shi-zujian-shi-chuxian-de-wenti</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://piecego.com/post/jiejue-wsl-yu-daili-chongtu</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://piecego.com/post/wei-windows10wsl-shezhi-moren-yonghu</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -44,6 +43,8 @@
 <url> <loc>https://piecego.com/post/wenjianjia-tongji-he-shanchu-hanshu</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://piecego.com/post/javascript-zhong-historypushstate-de-shiyong-jilu</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://piecego.com/post/geren-sikao-de-function-he-object-guanxi</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://piecego.com/links</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://piecego.com/about</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://piecego.com/archives/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://piecego.com/categories/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://piecego.com/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
